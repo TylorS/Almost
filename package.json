@@ -1,0 +1,50 @@
+{
+  "name": "almost-purescript",
+  "version": "0.0.0",
+  "description": "Useful stuff for maintaining the package",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "changelog": "conventional-changelog --infile CHANGELOG.md --same-file --release-count 0 --preset angular",
+    "test": "echo \"Error: no test specified; Bad developer\" && exit 1"
+  },
+  "config": {
+   "commitizen": {
+     "path": "./node_modules/cz-conventional-changelog"
+   },
+   "ghooks": {
+     "commit-msg": "node ./node_modules/validate-commit-msg/index.js"
+   }
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylorS/almost.git"
+  },
+  "keywords": [
+    "Most.js",
+    "Almost",
+    "purescript"
+  ],
+  "author": "Tylor Steinberger <tlsteinberger167@gmail.com> (github.com/TylorS)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylorS/almost/issues"
+  },
+  "homepage": "https://github.com/TylorS/almost#readme",
+  "devDependencies": {
+    "@most/eslint-config-most": "^1.0.2",
+    "assert": "^1.4.0",
+    "commitizen": "^2.8.1",
+    "conventional-changelog": "^1.1.0",
+    "conventional-changelog-cli": "^1.2.0",
+    "coveralls": "^2.11.9",
+    "eslint": "^2.10.2",
+    "ghooks": "^1.2.1",
+    "isparta": "^4.0.0",
+    "mocha": "^2.5.3",
+    "validate-commit-msg": "^2.6.1"
+  }
+}
