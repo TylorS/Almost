@@ -1,5 +1,5 @@
 {
-  "name": "almost",
+  "name": "purescript-almost",
   "ignore": [
     "**/.*",
     "node_modules",
