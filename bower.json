@@ -9,5 +9,5 @@
   "dependencies": {
     "purescript-maybe": "^0.3.5"
   },
-  "version": "0.0.2"
+  "version": "0.0.1"
 }
