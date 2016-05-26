@@ -2,4 +2,10 @@
 
 This is a quickly done subset of [most.js](https://github.com/cujojs/most) for
 purescript. It compiles, but I have 0 ideas if it actually works! Soo not close
-to being ready or done. 
+to being ready or done.
+
+### You're crazy and want to install this untested beast?
+
+```
+$ bower install purescript-almost
+```
