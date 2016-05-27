@@ -1,6 +1,6 @@
 {
   "name": "almost-purescript",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "private": true,
   "description": "Useful stuff for maintaining the package",
   "main": "index.js",
